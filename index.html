@@ -14,7 +14,28 @@
 	<script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script> -->
 
 <!--  -->
-
+	
+	<style>
+	
+	p{
+	text-align: justify;
+	color: black;}
+	
+	.menu-side2 {
+   transition: 0.5s;
+   }
+   .menu-side2:hover {
+    transform: translate(5px, 10px); /* Сдвигаем вправо и вниз */
+   }
+   
+   .social-s{ border: 0px solid; width: 15%; height: 15%}
+	
+	.shadow1{
+	text-shadow: 6px 6px 3px grey;
+	}
+	
+	</style>
+	
   </head>
   <body>
 	  <!-- size-normal" id="myContainer" -->
@@ -24,10 +45,10 @@
 			
 			<form name="search" action="#" method="get" class="form-inline form-search pull-right">
 				<div class="input-group">
-					<label class="sr-only" for="searchInput">Search</label>
-					<input class="form-control" id="searchInput" type="text" name="search" placeholder="Search">
+					<label class="sr-only" for="searchInput">Поиск</label>
+					<input class="form-control" id="searchInput" type="text" name="search" placeholder="">
 					<div class="input-group-btn">
-						<button type="submit" class="btn btn-primary">GO</button>
+						<button type="submit" class="btn btn-primary">Поиск</button>
 					</div>
 				</div>
 			</form>
@@ -45,13 +66,14 @@
 			<!-- </ul>-->
 		<!-- </nav>-->
 		<div class="heading">
-			<h1 style="position: relative; top: 5px; right: 1px; bottom: 150px; left: 300px;">ЛГ МАУ Лангепас-Спорт</h1>
+		<!-- <div class="heading">-->
+			<h1 style="position: relative; top: 5px; right: 1px; bottom: 150px; left: 300px; color: #ff4700; text-shadow: 7px 7px 7px black;"><b>ЛГ МАУ Лангепас-Спорт</b></h1>
 
 			<!-- <a id="specialButton" href="#"><img src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /></a> -->
 			<!--  -->
 			<!-- <a href="javascript:smallFontSize();">Small Font</a> -->
 			<div style="position: relative; left: 800px; color: green:">
-			<a href="javascript:largeFontSize();">ДЛЯ СЛАБОВИДЯЩИХ</a>
+			<a href="javascript:largeFontSize();" style="border: 2px solid black; border-radius: 10px; padding: 3px;">ДЛЯ СЛАБОВИДЯЩИХ</a>
 			</div>	
 			<!-- <a href="javascript:normalFontSize();">Обычный режим</a> -->	
 
@@ -59,32 +81,37 @@
 		<div class="row">
 			<aside class="col-md-7">
 				<ul class="list-group submenu">
-					<li class="list-group-item"><a href="/home/">Главная</a></li>
-					<li  class="list-group-item"><a href="/about/">Документы</a></li>
-					<li class="list-group-item"><a href="/services/">Антитеррор</a></li>
-					<li class="list-group-item"><a href="/partners/">Антикоррупция</a></li>
-					<li class="list-group-item"><a href="/customers/">ГО ЧС</a></li>
-					<li class="list-group-item"><a href="/projects/">ФОТО</a></li>
-					<li class="list-group-item "><a href="/projects/">Контакты</a></li>
+					<li class="list-group-item menu-side2 shadow1" ><a href="/home/">Главная</a></li>
+					<li  class="list-group-item menu-side2 shadow1" style="text-shadow: 6px 6px 3px grey;"><a href="/about/">Документы</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/services/">Антитеррор</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/partners/">Антикоррупция</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/customers/">ГО ЧС</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/projects/">ФОТО</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/projects/">Контакты</a></li>
 					<!-- <li class="list-group-item active">Контакты</li> -->
-					<li class="list-group-item"><a href="/donec/">ОБ ОРГАНИЗАЦИИ</a></li>
-					<li class="list-group-item"><a href="/vestibulum/">Нац. проекты</a></li>
-					<li class="list-group-item"><a href="/etiam/">Памятки родителю</a></li>
-					<li class="list-group-item"><a href="/phasellus/">Для старшего поколения</a></li>
-					<li class="list-group-item"><a href="/cras/">ДЛЯ МНОГОДЕТНЫХ СЕМЕЙ</a></li>
-					<li class="list-group-item"><a href="/cras/">АФК</a></li>
-					<li class="list-group-item"><a href="/cras/">Антидопинг</a></li>
-					<li class="list-group-item"><a href="/cras/">Обратная связь</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/donec/">ОБ ОРГАНИЗАЦИИ</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/vestibulum/">Нац. проекты</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/etiam/">Памятки родителю</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/phasellus/">Для старшего поколения</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/cras/">ДЛЯ МНОГОДЕТНЫХ СЕМЕЙ</a></li>
+					<li class="list-group-item menu-side2 menu-side2  shadow1"><a href="/cras/">АФК</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/cras/">Антидопинг</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/cras/">Обратная связь</a></li>
 					
-					<li class="list-group-item"><a href="/careers/">Режим работы</a></li>
-				        <li class="list-group-item"><a href="/contact/">Тарифы</a></li>
+					<li class="list-group-item menu-side2 shadow1"><a href="/careers/">Режим работы</a></li>
+				        <li class="list-group-item menu-side2 shadow1"><a href="/contact/">Тарифы</a></li>
 					
-					<li class="list-group-item"><a href="https://vk.com/langsport">vk.ru</a></li>
-					<li class="list-group-item"><a href="https://ok.ru/group/56413203923176">ok.ru</a></li>
-					<li class="list-group-item"><a href="https://www.facebook.com/groups/LangSport">facebook.com</a></li>
-					<li class="list-group-item"><a href="https://www.instagram.com/langepas_sport/">instagram.com</a></li>
-					<li class="list-group-item"><a href="https://twitter.com/langepas_sport/">twitter.com</a></li>
-					<li class="list-group-item"><a href="https://www.youtube.com/channel/UCRkcIjXjFhc2Bl5TuFWNyVQ">youtube.com</a></li>
+					
+					<li class="list-group-item menu-side2" style="list-style-type: none;">
+					<a href="https://vk.com/langsport"><img src="main-page/social/vk.png" class="social-s"></img></a>
+					<a href="https://www.facebook.com/groups/LangSport"><img src="main-page/social/fb.png" class="social-s"  ></img></a>
+					<a href="https://www.instagram.com/langepas_sport/"><img src="main-page/social/inst.png"  class="social-s" ></img></a>
+					<a href="https://twitter.com/langepas_sport/"><img src="main-page/social/tw.png" class="social-s" ></img></a>
+					<a href="https://ok.ru/group/56413203923176"><img src="main-page/social/ok.png" class="social-s" ></img></a>
+					<a href="https://www.youtube.com/channel/UCRkcIjXjFhc2Bl5TuFWNyVQ"><img src="main-page/social/yt.png" class="social-s" ></img></a>
+					</li>
+					
+					<li class="list-group-item " style="list-style-type: none;"><a href="gto.ru"><img src="main-page/social/gto1.jpg" style = "border: 0px solid; width: 70%; height: auto;"></img></a></li>
 					
 					
 					
@@ -101,7 +128,7 @@
 				<!-- </div> -->
 			</aside>
 			<section class="col-md-17">
-				<div class="jumbotron">
+				<!--<div class="jumbotron">
 					<!-- <blockquote>
 						<p>
 							&ldquo;Quisque in enim velit, at dignissim est. nulla ul corper, dolor ac pellentesque
@@ -109,20 +136,22 @@
 						</p>
 						<small>John Doe, Lorem Ipsum</small>
 					</blockquote> -->
-				</div>
-				<p style="text-align: justify"><b>Горячая линия по вопросам профилактики гриппа и ОРВИ в территориальном отделе Роспотребнадзора в г. Лангепасе и г. Покачи
+				<!--</div>-->
+				<p style="text-align: justify; color: black"><b>Горячая линия по вопросам профилактики гриппа и ОРВИ в территориальном отделе Роспотребнадзора в г. Лангепасе и г. Покачи<br>
 
-       Территориальный отдел Управления Роспотребнадзора по ХМАО-Югре в г. Лангепасе и г. Покачи   информирует о проведении горячей линии с 02 февраля 2021г., по вопросам иммунизации против новой коронавирусной инфекции COVID-19, а именно по проведению вакцинации, использованию вакцин, безопасности прививок, осложнениях после вакцинации.
+       Территориальный отдел Управления Роспотребнадзора по ХМАО-Югре в г. Лангепасе и г. Покачи   информирует о проведении горячей линии с 02 февраля 2021г., по вопросам иммунизации против новой коронавирусной инфекции COVID-19, а именно по проведению вакцинации, использованию вакцин, безопасности прививок, осложнениях после вакцинации.<br><br>
 
- Телефоны горячей линии 8(34669)20076, 8(34669)28455
+ Телефоны горячей линии 8(34669)20076, 8(34669)28455<br><br>
 
-Режим работы: Понедельник – Четверг с 09:00 ч.  до 18:00 ч.
+Режим работы: Понедельник – Четверг с 09:00 ч.  до 18:00 ч.<br><br>
 
-Перерыв на обед с 13:00 ч. до 14:00 часов.
+Перерыв на обед с 13:00 ч. до 14:00 часов.<br><br>
 
-Пятница с 09:00 ч. до 13:00 ч.          
+Пятница с 09:00 ч. до 13:00 ч.<br><br>          
 
   Главный специалист-эксперт территориального отдела Управления Роспотребнадзора по ХМАО-Югре в г. Лангепасе и г. Покачи Омарова Румият Гаджиевна 8(34669)28455</b></p >
+  
+  <div align="center"><a href="main-page/covid02.png" target="_blank"><img src="main-page/covid02.png" style = "border: 0px solid; width: 90%; height: auto; text-align: justify;" ></img></a></div>
 				
 				
 				<!--<div class="row">
@@ -173,7 +202,7 @@
 					<!-- <a href="http://flickr.com/" class="social-icon-small flickr"></a> -->
 					<!--<a href="http://instagram.com/" class="social-icon-small instagram"></a>-->
 					<!-- <a href="/rss/" class="social-icon-small rss"></a> -->
-				</div>
+				<!--</div>-->
 				<!--<div class="col-md-8 footer-logo">
 					<a href="/"><img src="images/logo.png" alt=""></a>
 					<p>
