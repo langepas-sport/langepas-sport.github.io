@@ -6586,7 +6586,7 @@ body .wrapper .heading {
   padding-left: 20px;
 }
 body .wrapper .heading h1 {
-  background: url(../images/bg.png);
+  //background: url(../images/bg.png);
   color: #7e7e7e;
   display: inline-block;
   font: normal 40px/40px 'Oswald', sans-serif;
