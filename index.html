@@ -53,7 +53,86 @@
 			background: linear-gradient(135deg, #5bc0de, rgb(198, 211, 26));
 			}
 
-		
+.cloud {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    background: url(mountain.jpg);
+    background-size: cover;
+}
+.cloudcontent {
+    position: relative;
+    padding:30px;
+    color: #337AB7;
+    font-size:22px;
+    font-weight:bold;
+    z-index:100;
+}
+.cloud img {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;
+    user-select: none;    
+    pointer-events: none;
+}
+@-webkit-keyframes animCloud {
+    from {
+        -webkit-transform: translateX(100%)
+    }
+    to {
+        -webkit-transform: translateX(-100%)
+    }
+}
+@-moz-keyframes animCloud {
+    from {
+        -moz-transform: translateX(100%)
+    }
+    to {
+        -moz-transform: translateX(-100%)
+    }
+}
+@keyframes animCloud {
+    from {
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%)
+    }
+    to {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+.cloud1 {
+    -webkit-animation: animCloud 20s infinite linear;
+    -moz-animation: animCloud 20s infinite linear;
+    animation: animCloud 20s infinite linear
+}
+.cloud2 {
+    -webkit-animation: animCloud 40s infinite linear;
+    -moz-animation: animCloud 40s infinite linear;
+    animation: animCloud 40s infinite linear
+}
+.cloud3 {
+    -webkit-animation: animCloud 60s infinite linear;
+    -moz-animation: animCloud 60s infinite linear;
+    animation: animCloud 60s infinite linear
+}
+.cloud4 {
+    -webkit-animation: animCloud 80s infinite linear;
+    -moz-animation: animCloud 80s infinite linear;
+    animation: animCloud 80s infinite linear
+}		
 
 		
 	</style>
@@ -113,7 +192,17 @@
 		<!-- </nav>-->
 		<div class="heading">
 		<!-- <div class="heading">-->
-			<h1 style="position: relative; top: 5px; right: 1px; bottom: 150px; left: 300px; color: #ff4700; text-shadow: 7px 7px 7px black;"><b>ЛГ МАУ Лангепас-Спорт</b></h1>
+			
+			<div class="cloud">
+    <div class="cloudcontent">
+        <h1 style="position: relative; top: 5px; right: 1px; bottom: 150px; left: 300px; color: #ff4700; text-shadow: 7px 7px 7px black;"><b>ЛГ МАУ Лангепас-Спорт</b></h1>
+    </div>
+    <img src="cloud-01.png" alt="" class="cloud1">
+    <img src="cloud-02.png" alt="" class="cloud2">
+    <img src="cloud-03.png" alt="" class="cloud3">
+    <img src="cloud-04.png" alt="" class="cloud4">
+</div>
+			
 
 			<!-- <a id="specialButton" href="#"><img src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /></a> -->
 			<!--  -->
