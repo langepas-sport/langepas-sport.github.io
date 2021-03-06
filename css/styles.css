@@ -6614,7 +6614,7 @@ body .wrapper .submenu li a {
   text-decoration: none;
 }
 body .wrapper .submenu li a:hover {
-  color: #8f8f8f;
+  color: #69ff00; /* #8f8f8f */
 }
 body .wrapper .jumbotron {
   border-radius: 0;
