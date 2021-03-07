@@ -6759,3 +6759,74 @@ body footer .container .footer-logo a {
 #myContainer.size-normal { font-size: 12px; }
 #myContainer.size-large { font-size: 24px; }
 #myContainer.size-small { font-size: 10px; }
+
+/* add 07 03 21 */
+p{
+	text-align: justify;
+	color: black;}
+	
+	.menu-side2 {
+   transition: 0.5s;
+   color: green;
+    
+     background-color: #ff6000;
+   }
+
+		body .wrapper .submenu li a {
+			color: black;
+		}	
+		
+   .menu-side2:hover {
+    transform: translate(1px, 1px); /* Сдвигаем вправо и вниз */
+   }
+   
+   .social-s{ border: 0px solid; width: 15%; height: 15%}
+	
+	.shadow1{
+	//text-shadow: 6px 6px 3px grey;
+	}
+	
+		
+	   .social-s {
+   transition: 0.5s;
+   }
+
+  .social-s:hover {
+    transform: translateY(5px); /* Сдвигаем вниз */
+   }
+  	
+		body { 	background: -webkit-linear-gradient(135deg, #5bc0de, rgb(198, 211, 26));
+			background: -moz-linear-gradient(135deg, #5bc0de, rgb(198, 211, 26));
+			background: linear-gradient(135deg, #5bc0de, rgb(198, 211, 26));
+			}
+
+	.menu-side2:hover {
+    color: red; 
+   } 
+
+	 .list-group-item:hover {
+    color: red; 
+   } 
+		
+.shadow1:hover {
+    color: red; 
+   }
+
+ li:hover {
+    color: red; 
+   }
+
+	a:hover {
+    color: #fff; /* Цвет текста */
+		/*background: #008;  Цвет фона */}	
+		
+hr {
+    border: none;  
+    background-color: red;  
+    color: red;  
+    height: 2px; 
+   }		
+		
+
+
+
