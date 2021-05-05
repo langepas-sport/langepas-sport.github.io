@@ -6827,6 +6827,9 @@ hr {
     height: 2px; 
    }		
 		
-
+img {
+	width: 90%; 
+	height: auto;
+	}
 
 
