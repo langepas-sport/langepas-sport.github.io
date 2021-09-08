@@ -424,11 +424,11 @@ function normalFontSize() {
 }
 	
 	$(document).ready(function () {
-      $(this).siblings(".extremum-slide").slideToggle("slow");
+      $(".extremum-click").siblings(".extremum-slide").slideToggle("slow");
     });	
 		
     $(".extremum-click").click(function () {
-      $(".extremum-click").siblings(".extremum-slide").slideToggle("slow");
+      $(this).siblings(".extremum-slide").slideToggle("slow");
     });
 		
 	</script>
