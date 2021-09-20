@@ -53,7 +53,17 @@
     display: block; /* Показываем содержимое */
    }
   	
-		
+   .tab :hover + .tab-title {
+    background-color: #50a2de; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+   }
+   .tab :hover + .tab-title::after {
+    content: '−'; /* Выводим минус */
+   }
+   .tab :hover ~ .tab-content {
+    display: block; /* Показываем содержимое */
+   }		
 		
 	/*----*/		
 		
