@@ -206,12 +206,12 @@ hr {
 					<li class="list-group-item menu-side2 shadow1" ><a href="/">Главная</a></li>
 					<li  class="list-group-item menu-side2 shadow1" ><a href="documents.html">Документы</a></li>
 					<li class="list-group-item menu-side2 shadow1"><a href="antiterror.html">Антитеррор</a></li>
-					<!-- -->
+					<!--А_КОРР А_КОРР А_КОРР А_КОРР А_КОРР А_КОРР -->
 					
 								  <div class="accordion"> 
    <div class="tab" style = "font: 1.5rem/1.2 Arial, sans-serif;">
     <input type="checkbox" id="tab1" name="tab-group">
-    <label for="tab1" class="tab-title" style = "font: 15px; color: #060709; background-color: #ff6000;">Антикоррупция...</label> 
+    <label for="tab1" id = "akorr" class="tab-title" style = "font: 15px; color: #060709; background-color: #ff6000;">Антикоррупция...</label> 
 	   
 	   
     <section class="tab-content"> 
@@ -537,6 +537,19 @@ function normalFontSize() {
     $(".extremum-click").click(function () {
       $(this).siblings(".extremum-slide").slideToggle("slow");
     });
+		
+		
+//---------кнопка антикоррупции
+		
+let akorr = document.querySelector("#akorr");
+
+akorr.addEventListener('onmouseover', ()=>{
+	
+	tab1.checked = 1;
+
+});		
+		
+		
 		
 	</script>
 
