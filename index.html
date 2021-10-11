@@ -542,13 +542,15 @@ function largeFontSize() {
 function normalFontSize() {
   containerEle.className = "size-normal";
 }
+		
+	let jj = jQuery.noConflict();	
 	
-	$(document).ready(function () {
-      $(".extremum-click").siblings(".extremum-slide").slideToggle("slow");
+	jj(document).ready(function () {
+      jj(".extremum-click").siblings(".extremum-slide").slideToggle("slow");
     });	
 		
-    $(".extremum-click").click(function () {
-      $(this).siblings(".extremum-slide").slideToggle("slow");
+    jj(".extremum-click").click(function () {
+      jj(this).siblings(".extremum-slide").slideToggle("slow");
     });
 		
 		
