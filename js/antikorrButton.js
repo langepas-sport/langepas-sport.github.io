@@ -1,6 +1,6 @@
+//---добавление кнопки антикорр
+
 let liAll = document.querySelectorAll('.list-group-item');
-
-
 
 let listGroup = document.querySelector('.list-group');
 
@@ -29,4 +29,9 @@ divOne.innerHTML = newElement;
 
 listGroup.replaceChild(divOne, liAll[3]);
 
-//<script src="/js/antikorrButton.js">
+//---------------------- удаление старой кнопки
+
+let adivAO = document.querySelector('a[href="javascript:largeFontSize();"]');
+adivAO.remove();
+
+//<script src="/js/antikorrButton.js"></script>
