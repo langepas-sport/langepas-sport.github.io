@@ -12,7 +12,7 @@ let newElement = `<div class="accordion">
 	   
     <section class="tab-content"> 
       <li class="list-group-item menu-side2 shadow1"><a href="antikorrypcia.html">Антикоррупция</a></li>
-        <br><a title="Приказ по противодействию бытовой коррупции" href="http://xn----8sbalcjrztwx8e.xn--p1ai/images/kartinki/korupcia/5pamyatka_po_vzyatke.pdf" target="_blank" rel="alternate noopener noreferrer">Приказ по противодействию бытовой коррупции</a>
+        <br><a title="Приказ по противодействию бытовой коррупции" href="https://langepas-sport.github.io/images/akorr/Prikaz_%E2%84%9618_9.01.2025_plancorr.pdf" target="_blank" rel="alternate noopener noreferrer">Приказ по противодействию бытовой коррупции</a>
 	<br><a title="Памятка о взятке" href="http://xn----8sbalcjrztwx8e.xn--p1ai/images/kartinki/korupcia/5pamyatka_po_vzyatke.pdf" target="_blank" rel="alternate noopener noreferrer">Памятка о взятке</a>
 
 <br><a title="Антикоррупционный букварь" href="http://xn----8sbalcjrztwx8e.xn--p1ai/images/kartinki/korupcia/4antikorrupcionnyiy_bukvar-.pdf" target="_blank" rel="alternate noopener noreferrer">Антикоррупционный букварь</a>
